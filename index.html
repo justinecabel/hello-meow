@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>meow</title>
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+      font-size: 4em;
+      font-family: monospace;
+    }
+    .gallery{
+      min-width: 100vw;
+      min-height: 100vh;
+    }
+    .light-mode{
+      background-color: white;
+      color: black;
+    }
+    .dark-mode{
+      background-color: #252529;
+      color: white;
+    }
+    #Title-bar{
+      min-width: 100vw;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    #content, #footer{
+      width: 100vw;
+    }
+    #me{
+      padding: 22px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #me a img{
+      width: 20px;
+    }
+  </style>
+  <script src="/script.js"></script>
+</head>
+<body>
+  <div id="Title-bar">
+    <h1>meow <span id="meow"></span></h1>
+  </div>
+  <div id="content">
+    <div id="footer">
+      <div id="me">
+        <a href="http://github.com/justinecabel">
+          <img src="/files/github-mark.svg" alt="github-icon">
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
